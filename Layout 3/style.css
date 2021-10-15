@@ -1,0 +1,69 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background: grey;
+    text-align: center;
+    border: 2px solid;
+    padding: 30px;
+    margin-bottom: 5px;
+}
+
+.nav {
+    background: green;
+    text-align: center;
+    border: 2px solid;
+    padding: 10px;
+    margin-bottom: 7px;
+}
+
+.article {
+    overflow: hidden;
+}
+
+.content {
+    background: red;
+    text-align: center;
+    width: 69%;
+    height: 600px;
+    float: left;
+    margin-right: 5px;
+    border: 2px solid;
+}
+
+.side {
+    overflow: hidden;
+    width: 30%;
+    text-align: center;
+}
+
+footer {
+    background: salmon;
+    text-align: center;
+    margin-top: 7px;
+    border: 2px solid;
+    padding: 10px;
+}
+
+.box2 {
+    background: seagreen;
+    border: 2px solid;
+    height: 194px;
+    margin-bottom: 5px;
+}
+
+.box4 {
+    background: seagreen;
+    border: 2px solid;
+    height: 194px;
+    margin-bottom: 5px;
+}
+
+.box5 {
+    background: seagreen;
+    border: 2px solid;
+    height: 194px;
+    margin-bottom: 5px;
+}

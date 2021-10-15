@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: yellow;
+    padding: 20px;
+}
+
+.content {
+    margin-top: 30px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+nav {
+    background: yellow;
+    width: 27.5%;
+    float: left;
+    margin-right: 2.5%;
+    height: 515px;
+}
+
+.article {
+    background: yellow;
+    width: 50%;
+    float: left;
+    margin-right: 2.5%;
+    height: 515px;
+}
+
+aside {
+    background: yellow;
+    width: 17.5%;
+    float: right;
+    height: 515px;
+}
+
+footer {
+    background: yellow;
+    padding: 20px;
+}

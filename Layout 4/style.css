@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background: blue;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.article {
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.nav {
+    background: chartreuse;
+    width: 25%;
+    float: left;
+    height: 500px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.center {
+    background: cadetblue;
+    width: 49.3%;
+    float: left;
+    height: 500px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+aside {
+    background: darkcyan;
+    width: 24%;
+    float: right;
+    height: 500px;
+    border-radius: 10px;
+}
+
+footer {
+    background: darkmagenta;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
