@@ -1,31 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <form action="">
-        <label for="">First Name</label><br />
-        <input type="text" class="" name="fname" autofocus maxlength="10" /><br />
-        <label for="">Last name</label><br />
-        <input type="text" name="lname" autocomplete="off" placeholder="abc123" /><br />
-        <label for="">Password</label><br />
-        <input type="password" /><br />
-        <label for="">Email</label><br />
-        <input type="email" /><br />
-        <label for="">Date</label>
-        <input type="date" /><br />
-        <label for="">Number</label><br />
-        <input type="number" min="0" />
-        <br /><br />
-        <input type="submit" />
-    </form>
-</body>
+      <label for="">First Name</label><br />
+      <input type="text" class="" name="fname" autofocus maxlength="10" /><br />
+      <label for="">Last name</label><br />
+      <input
+        type="text"
+        name="lname"
+        autocomplete="off"
+        placeholder="abc123"
+      /><br />
+      <label for="pass">Password</label><br />
+      <input type="password" id="pass" /><br />
+      <label for="email">Email</label><br />
+      <input type="email" id="email" /><br />
+      <label for="">Date</label><br />
+      <input type="date" /><br />
+      <label for="">Number</label><br />
+      <input type="number" min="0" /><br /><br />
 
+      <div>
+        <label for="">Gender</label><br />
+        <input type="radio" id="male" name="gender" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" />
+        <label for="female">Female</label><br />
+        <input type="radio" id="other" name="gender" />
+        <label for="other">Others</label><br /><br />
+      </div>
+
+      <section>
+        <label for="">Favourite food</label><br />
+        <input type="checkbox" id="food" />
+        <label for="food">Rice</label><br />
+        <input type="checkbox" id="food" />
+        <label for="food">Dal</label><br />
+        <input type="checkbox" id="food" />
+        <label for="food">Biriani</label><br /><br />
+      </section>
+      <label for="text">Bio</label><br />
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Write something about yourself..."
+      ></textarea>
+
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
 </html>
