@@ -1,0 +1,15 @@
+.flex {
+  display: inline-block;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex h1 {
+  width: 45%;
+  text-transform: uppercase;
+}
+.flex h3 {
+  width: 45%;
+  color: brown;
+}
